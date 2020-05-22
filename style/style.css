@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #E55D87;  /* Apoyo para navegadores antiguos */
+    background: -webkit-linear-gradient(to left, #5FC3E4, #E55D87);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #5FC3E4, #E55D87); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.zonaHoraria, .temperatura{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.temperatura{
+    flex-direction: column;
+}
+
+.seccionTemperatura{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.seccionTemperatura h2{
+    font-size: 30px;
+}
+.seccionTemperatura span{
+    font-size: 20px;
+    margin: 1rem;
+}
+
+
